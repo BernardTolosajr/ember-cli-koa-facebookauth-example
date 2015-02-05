@@ -21,7 +21,7 @@ module.exports = function(environment) {
     torii: {
       providers: {
         'facebook-oauth2': {
-          apiKey: '225411845752',
+          apiKey: 'facebook_api_key',
           scope: 'publish_stream',
           redirectUri: 'http://localhost:4200'
         }
