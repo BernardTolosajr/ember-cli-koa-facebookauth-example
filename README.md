@@ -9,6 +9,13 @@ This app makes use of:
 * [Torii][4]
 * [koa-passport][5]
 
+## Installation
+This assumes you have git, node, bower, and ember-cli installed
+
+1. Clone this repo.
+2. Edit the api keys in `auth/config/environment.js` (you'll need to
+   register your application with facebook).
+
 [1]: https://github.com/stefanpenner/ember-cli  "Ember CLI"
 [2]: http://koajs.com/  "koa.js"
 [3]: https://github.com/simplabs/ember-simple-auth  "Ember Simple Auth"
