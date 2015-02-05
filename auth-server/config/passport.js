@@ -31,8 +31,8 @@ module.exports = function(passport) {
   passport.serializeUser(serialize);
   passport.deserializeUser(deserialize);
   passport.use(new FacebookTokenStrategy({
-    clientID: '225411845752',
-    clientSecret: '16b861cf4e35112642647fae9001c45d',
-    redirectURL: 'http://localhost:4200/'
+    clientID: 'facebook_id',
+    clientSecret: 'facebook_secrect_key',
+    redirectURL: 'facebook_redirect_url'
   }, facebookAuth));
 };
